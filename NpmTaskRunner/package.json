@@ -1,0 +1,15 @@
+{
+  "name": "dice_simulator_2015",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha" 
+    "uglify": "uglify-js src/models/* src/frontend.js  -m -c -o build/app.js"
+  },
+  "author": "Andrew Chalkley",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "uglify-js": "^2.4.23"
+  }
+}
